@@ -20,6 +20,7 @@ class Server:
             if self.timeRemaining <= 0:
                 self.currentTask = None
 
+
     def busy(self):
         if self.currentTask is not None:
             return True
